@@ -25,19 +25,4 @@ function App() {
   );
 }
 
-// const TutorCalendarWrapper = () => {
-//   const availability = [
-//     {
-//       start: '2024-07-17T12:00:00',
-//       end: '2024-07-17T16:00:00'
-//     },
-//     {
-//       start: '2024-07-18T19:00:00',
-//       end: '2024-07-18T23:59:00'
-//     },
-//     // Add more slots as needed
-//   ];
-//   return <TutorCalendar availability={availability} />;
-// };
-
 export default App;

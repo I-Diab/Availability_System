@@ -4,7 +4,7 @@ import moment from 'moment-timezone';
 import '../styles/enterAvailability.css';
 
 const EnterAvailability = () => {
-    const [availability, setAvailability] = useState("I am free Tuesday and Wednesday after next from 9 PM to 10:30 PM");
+    const [availability, setAvailability] = useState("");
     const [submitted, setSubmitted] = useState(false);
     const [availabilitySlots, setAvailabilitySlots] = useState([]);
     const [showPopup, setShowPopup] = useState(false);
@@ -70,6 +70,7 @@ const EnterAvailability = () => {
                         onChange={(e) => setAvailability(e.target.value)}
                         rows="4"
                         cols="50"
+                        placeholder='e.g. I am free next Tuesday from 9 PM to 10:30 PM'
                     />
                 <br />
                 <button type="submit">Submit</button>

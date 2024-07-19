@@ -1,8 +1,5 @@
 .enter-availability-container {
     margin: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 .enter-availability-form {
@@ -17,7 +14,7 @@
 }
 
 .enter-availability-form textarea {
-    width: 80%;
+    width: 30%;
     height: 100px;
     padding: 10px;
     font-size: 1em;
